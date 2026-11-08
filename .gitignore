@@ -1,0 +1,121 @@
+
+# ==========================================
+# Python cache and compiled files
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Virtual environments
+# ==========================================
+
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+*.pem
+*.key
+
+# ==========================================
+# IDE and editor settings
+# ==========================================
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# macOS system files
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==========================================
+# Testing and code quality
+# ==========================================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ==========================================
+# Python build and distribution
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+
+# ==========================================
+# ML experiments and generated artifacts
+# ==========================================
+
+checkpoints/
+artifacts/
+mlruns/
+wandb/
+tensorboard/
+
+# ==========================================
+# Local databases
+# ==========================================
+
+*.sqlite3
+*.sqlite3-journal
+
+# ==========================================
+# Temporary application files
+# ==========================================
+
+tmp/
+temp/
+.cache/
+
+# Large or generated datasets
+data/raw/
+data/processed/
+
+# Generated model checkpoints
+models/checkpoints/
+
+# Generated ML artifacts
+artifacts/
