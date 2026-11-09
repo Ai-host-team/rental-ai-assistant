@@ -1,0 +1,26 @@
+[project]
+name = "rental-ai-assistant"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.162.2",
+    "httpx>=0.28.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "openai>=3.46.0",
+    "pandas>=3.1.1",
+    "pathlib>=1.0.1",
+    "pydantic-settings>=2.16.2",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "uvicorn>=0.54.0",
+    "xgboost>=3.4.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.6",
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]

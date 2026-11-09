@@ -119,3 +119,22 @@ models/checkpoints/
 
 # Generated ML artifacts
 artifacts/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
