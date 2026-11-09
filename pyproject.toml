@@ -13,6 +13,9 @@ dependencies = [
     "pydantic-settings>=2.16.2",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "sentence-transformers>=3.4,<6",
+    "torch>=2.6,<3",
+    "transformers>=4.46,<5",
     "uvicorn>=0.54.0",
     "xgboost>=3.4.1",
 ]
@@ -21,6 +24,7 @@ dependencies = [
 dev = [
     "ipykernel>=7.4.0",
     "jupyterlab>=4.6.6",
+    "nbformat>=5.10,<6",
     "pytest>=9.2.0",
     "ruff>=0.17.4",
 ]
